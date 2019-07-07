@@ -27,6 +27,7 @@
 > [pylint](https://github.com/cytopia/docker-pylint) **•**
 > [terraform-docs](https://github.com/cytopia/docker-terraform-docs) **•**
 > [terragrunt](https://github.com/cytopia/docker-terragrunt) **•**
+> [terragrunt-fmt](https://github.com/cytopia/docker-terragrunt-fmt) **•**
 > [yamllint](https://github.com/cytopia/docker-yamllint)
 
 
@@ -137,6 +138,7 @@ linter below for reproducible local or remote CI tests:
 | [pylint](https://github.com/cytopia/docker-pylint) | Python | Python source code, bug and quality checker |
 | [terraform-docs](https://github.com/cytopia/docker-terraform-docs) | Terraform | Terraform doc generator (TF 0.12 ready) **<sup>[1]</sup>** |
 | [terragrunt](https://github.com/cytopia/docker-terragrunt) | Terraform | Terragrunt and Terraform |
+| [terragrunt-fmt](https://github.com/cytopia/docker-terragrunt-fmt) | Terraform | `terraform fmt` for Terragrunt files **<sup>[1]</sup>** |
 
 > **<sup>[1]</sup>** Uses a shell wrapper to add **enhanced functionality** not available by original project.
 
