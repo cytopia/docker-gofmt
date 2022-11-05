@@ -42,7 +42,7 @@
 View **[Dockerfiles](https://github.com/cytopia/docker-gofmt/blob/master/Dockerfiles/)** on GitHub.
 
 
-**Available Architectures:**  `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6`
+**Available Architectures:**  `amd64`, `i386`, `arm64`, `arm/v7`
 
 Tiny Alpine-based multistage-build dockerized version of [gofmt](https://godoc.org/cmd/gofmt)<sup>[1]</sup>,
 which adds the **additional `--ci` argument<sup>[2]</sup>** via a shell wrapper to ensure to exit > 0 if file diffs occur.
@@ -65,7 +65,7 @@ The following Docker image tags are rolling releases and are built and updated e
 
 | Docker Tag           | Git Ref   | gofmt        | Available Architectures                      |
 |----------------------|-----------|--------------|----------------------------------------------|
-| `latest`             | master    | latest       | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6` |
+| `latest`             | master    | latest       | `amd64`, `i386`, `arm64`, `arm/v7`           |
 
 #### Point in time releases
 
@@ -75,7 +75,7 @@ The following Docker image tags are built once and can be used for reproducible 
 
 | Docker Tag           | Git Ref      | gofmt        | Available Architectures                      |
 |----------------------|--------------|--------------|----------------------------------------------|
-| `latest-<tag>`       | tag: `<tag>` | latest       | `amd64`, `i386`, `arm64`, `arm/v7`, `arm/v6` |
+| `latest-<tag>`       | tag: `<tag>` | latest       | `amd64`, `i386`, `arm64`, `arm/v7`           |
 
 > Where `<tag>` refers to the chosen git tag from this repository.
 
