@@ -1,6 +1,6 @@
 FROM golang:stretch as builder
 
-FROM alpine:3.16
+FROM alpine:3.16 as production
 LABEL \
 	maintainer="cytopia <cytopia@everythingcli.org>" \
 	repo="https://github.com/cytopia/docker-gofmt"
